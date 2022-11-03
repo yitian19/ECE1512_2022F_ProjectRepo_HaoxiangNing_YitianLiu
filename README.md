@@ -1,1 +1,2 @@
 # ECE1512_2022F_ProjectRepo_HaoxiangNing_YitianLiu
+This project contains two main tasks. In the Project folder, you will find two folders for two tasks. In each folder, you will find the .ipynb file for detailed outputs and codes. Besides that, these folders also contain the Figure and the Result. In the Figure folder you will see the curve of our output. In the Result folder, you will find the data output in .mat version.
