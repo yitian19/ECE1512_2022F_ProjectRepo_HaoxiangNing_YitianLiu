@@ -53,29 +53,30 @@ The structure of Project A is as follow, focusing on the knowledge distillation 
                 f1_T_0.2dr.mat
                 f1_T_0.5dr.mat
                 f1_T_0dr.mat
-                
+```              
 The structure of Project B is as follow, focusing on the dataset distillation (DD) method.
 ```
-│  README.md
-│  
+│              
 └─Project B
-    │  networks.ipynb      
-    │  utils.ipynb       
-    │  .test 
-    │
+    │  .test
+    │  networks.ipynb
+    │  utils.ipynb
+    │  
     ├─Task1
-    │  │  .test
-    │  │  CIFAR10_Conintual_Learning.ipynb
-    │  │  CIFAR10_Cross_architectue_Generalization.ipynb
-    │  │  CIFAR10_syn.ipynb
-    │  │  CIFAR10_syn_Gaussian.ipynb
-    │  │  MNIST_Conintual_Learning.ipynb
-    │  │  MNIST_Cross_architectue_Generalization.ipynb
-    │  │  MNIST_syn.ipynb
-    │  │  MNIST_syn_Gaussian.ipynb
-    │  │  Train whole dataset.ipynb
-    │          
+    │      .test
+    │      CIFAR10_Continual_Learning.ipynb
+    │      CIFAR10_Cross_architecture_Generalization.ipynb
+    │      CIFAR10_syn.ipynb
+    │      CIFAR10_syn_Gaussian.ipynb
+    │      MHIST_Continual_Learning.ipynb
+    │      MNIST_Cross_architecture_Generalization.ipynb
+    │      MNIST_syn.ipynb
+    │      MNIST_syn_Gaussian.ipynb
+    │      Train whole dataset.ipynb
+    │      
     └─Task2
-        │  Distribution_Matching_MNIST.ipynb
-        │  Distribution_Matching_CIFAR10.ipynb
-        │  Matching Training Trajectories.ipynb
+            .test
+            Distribution_Matching_CIFAR10.ipynb
+            Distribution_Matching_MNIST.ipynb
+            Matching Training Trajectories.ipynb
+        
