@@ -1,6 +1,4 @@
 # ECE1512_2022F_ProjectRepo_HaoxiangNing_YitianLiu
-## About this Repository
-This project contains two main tasks. In the Project folder, you will find two folders for two tasks. In each folder, you will find the .ipynb file for detailed outputs and codes. Besides that, these folders also contain the Figure and the Result. In the Figure folder you will see the curve of our output. In the Result folder, you will find the data output in .mat version.
 ## Repository Structure
 The structure of Project A is as follow, focusing on the knowledge distillation (KD) method and the transfer learning (TL) method.
 ```
@@ -55,3 +53,29 @@ The structure of Project A is as follow, focusing on the knowledge distillation 
                 f1_T_0.2dr.mat
                 f1_T_0.5dr.mat
                 f1_T_0dr.mat
+                
+The structure of Project B is as follow, focusing on the dataset distillation (DD) method.
+```
+│  README.md
+│  
+└─Project B
+    │  networks.ipynb      
+    │  utils.ipynb       
+    │  .test 
+    │
+    ├─Task1
+    │  │  .test
+    │  │  CIFAR10_Conintual_Learning.ipynb
+    │  │  CIFAR10_Cross_architectue_Generalization.ipynb
+    │  │  CIFAR10_syn.ipynb
+    │  │  CIFAR10_syn_Gaussian.ipynb
+    │  │  MNIST_Conintual_Learning.ipynb
+    │  │  MNIST_Cross_architectue_Generalization.ipynb
+    │  │  MNIST_syn.ipynb
+    │  │  MNIST_syn_Gaussian.ipynb
+    │  │  Train whole dataset.ipynb
+    │          
+    └─Task2
+        │  Distribution_Matching_MNIST.ipynb
+        │  Distribution_Matching_CIFAR10.ipynb
+        │  Matching Training Trajectories.ipynb
